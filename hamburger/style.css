@@ -1,0 +1,42 @@
+html,
+body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	background-color: #21008d;
+}
+
+.col {
+	padding: 370px;
+	background-color: #21008d;
+	color: #a92188;
+}
+
+#hamburger .line {
+	width: 60px;
+	height: 6px;
+	background-color: #a92188;
+	border: 0.5px solid #FC3927;
+	border-radius: 2px;
+	display: block;
+	margin: 8px auto;
+	transition: all 0.3s ease-in-out; /* 0.3s default */
+}
+
+#hamburger:hover {
+	cursor: pointer;
+}
+
+
+#hamburger.is-active .line:nth-child(1) {
+	transform: translateY(16px) rotate(315deg); /* 315 default */
+}
+
+#hamburger.is-active .line:nth-child(2) {
+	opacity: 0;
+}
+
+#hamburger.is-active .line:nth-child(3) {
+	transform: translateY(-16px) rotate(-315deg); /* -315 default */
+}
