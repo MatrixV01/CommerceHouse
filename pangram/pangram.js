@@ -6,7 +6,7 @@
 /_____/_/   \__,_/\__,_/  /_/   /_/_/ /_/\___/_/ /_/\___/_/
 */
 
-// Refactored for ES6 and eslint/airbnb compliance
+// Refactored for ES6 and eslint/airbnb style guide
 
 // Tests for and removes duplicates from array
 const unique = (arr) => {
