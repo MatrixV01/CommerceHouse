@@ -6,5 +6,6 @@
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
+*.eslintrc.json
 
 # End of https://www.gitignore.io/api/visualstudiocode

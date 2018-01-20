@@ -28,7 +28,6 @@ body {
 	cursor: pointer;
 }
 
-
 #hamburger.is-active .line:nth-child(1) {
 	transform: translateY(16px) rotate(315deg); /* 315 default */
 }
